@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.header{
+    padding: 1rem 0;
+    z-index: 1000;
+}
+
+.header .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .navbar img{
+    height: 13rem;
+    width: 13rem;
+    margin-left: 10rem;
+}
+
+.header .navbar .left-side a{
+    font-size: 2rem;
+    text-decoration: none;
+    margin: 1rem;
+    padding: 1rem;
+    background: red;
+    border-radius: .3rem;
+    color:white
+}
+
+#login{
+    background: black;
+    border: 1px solid white;
+    color:white;
+}

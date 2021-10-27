@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body{
+    background:
+    /* top, transparent red */
+     linear-gradient(rgba(0, 0, 0, 0.62),rgba(0, 0, 0, 0.62)),
+    /* bottom, image */
+    url(../../../assets/image/signup.jpg);
+    background-repeat: no-repeat;
+}
+
+.signin-logo{
+    height: 15rem;
+    width: 15rem;
+    margin-left: 10rem;
+}
+
+.outer-container{
+    /* border: 2px solid white; */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.inner-container{
+    background: linear-gradient(rgba(0, 0, 0, 0.82),rgba(0, 0, 0, 0.82));
+    padding: 5rem;
+    display: block;
+    position: absolute;
+    width: 30%;
+    margin-bottom: 12rem;
+    border-radius: .5rem;
+}
+
+.signin{
+    font-size: 3rem;
+    margin: 1rem;
+    color:white;
+}
+
+.small-input{
+    display: inline-block;
+    margin: 1rem 1rem;
+    padding: 2rem 2rem;
+    font-size : 2rem;
+    width: 95%;
+    border-radius: .5rem;
+    border: none;
+    outline: none;
+    caret-color: white;
+    color: white;
+    background: linear-gradient(rgba(58, 55, 55, 0.62),rgba(58, 55, 55, 0.62));
+}
+
+.big-input{
+    display: inline-block;
+    margin: 1rem 1rem;
+    padding: 2rem 2rem;
+    font-size : 2rem;
+    border-radius: .5rem;
+    width: 95%;
+    border: none;
+    outline: none;
+    caret-color: white;
+    color: white;
+    background: linear-gradient(rgba(58, 55, 55, 0.62),rgba(58, 55, 55, 0.62));
+}
+
+.signin-btn{
+    display: inline-block;
+    margin: 1rem 1rem;
+    padding: 2rem 2rem;
+    font-size : 2rem;
+    border-radius: .5rem;
+    width: 95%;
+    color: white;
+    background-color: red;
+    border: none;
+    outline: none;
+    cursor:pointer;
+}
+
+.remember{
+    display:flex;
+    justify-content: space-between;
+}
+.remember-me{
+    
+    /* background: -webkit-linear-gradient(rgba(173, 165, 165, 0.62), rgba(173, 165, 165, 0.62));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    color:grey;
+    font-size: 2rem;
+}
+
+.need-help{
+    font-size: 2rem;
+    text-decoration: none;
+    margin: 1rem 1rem;
+    /* background: -webkit-linear-gradient(rgba(173, 165, 165, 0.62), rgba(173, 165, 165, 0.62));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    color: grey;
+}
+
+.need-help:hover{
+    text-decoration: underline;
+    /* background: -webkit-linear-gradient(rgba(173, 165, 165, 0.62), rgba(173, 165, 165, 0.62));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;  */
+}
+
+input.check{
+    margin: 1rem 1rem;
+    padding: 2rem 2rem;  
+}
+
+.social-link-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-link{
+    display: inline;
+    margin-right: 2rem;
+    text-decoration: none;
+}
+
+.fab{
+    color:blue;
+    font-size: 2rem;
+    margin: 1rem 1rem;
+}
+
+.facebook{
+    color:blue;
+}
+
+.instagram{
+    color:red;
+}
+
+.twitter{
+    color:lightblue;
+}
+
+.google{
+    color:yellow;
+}
+
+/* .facebook-span{
+    color:white;
+    font-size: 1.7rem;
+    margin: .2rem .2rem;
+    background: -webkit-linear-gradient(rgba(173, 165, 165, 0.62), rgba(173, 165, 165, 0.62));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+} */
+
+.new-to{
+    display: inline-block;
+    font-size: 2rem;
+    margin: 1rem 1rem;
+    /* background: -webkit-linear-gradient(rgba(173, 165, 165, 0.62), rgba(173, 165, 165, 0.62));
+    background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    color: grey;
+}
+
+.signup-now{
+    color:white;
+    font-size: 2rem;
+}
+
+.signup-now:hover{
+    text-decoration:underline;
+}
+
+
+/* Footer */
+.footer{
+    background: linear-gradient(rgba(0, 0, 0, 0.82),rgba(0, 0, 0, 0.82));
+    padding: 2rem 2rem;
+}
+
+.box{
+    display: inline-block;
+    padding: 2rem 2rem;
+    margin-right: 16rem;
+}
+
+.box ul li{
+    padding: 2rem;
+}
+
+.box ul li h3{
+    color: white;
+    font-size: 2rem;
+}
+
+.box ul li span{
+    color: white;
+    font-size: 2rem;
+}
+
+.box ul li a{
+    font-size: 2rem;
+    text-decoration: none;
+    color:white;
+    padding: 2rem;
+}
+
+.box ul li .hover-under{
+    color: grey;
+}
+
+.box ul li .hover-under:hover{
+    text-decoration: underline;
+}
