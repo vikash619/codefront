@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body{
+    background:url('../../../assets/image/verification.jpg');
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
+    height: 100vh;
+}
+
+::placeholder{
+    color:white;
+}
+
+.outer-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Number{
+    display: inline-block;
+    margin: 1rem 1rem;
+    padding: 2rem 2rem;
+    font-size : 2rem;
+    border-radius: .5rem;
+    /* width: 95%; */
+    border: none;
+    outline: none;
+    caret-color: white;
+    color: white;
+    /* background: linear-gradient(rgba(58, 55, 55, 0.62),rgba(58, 55, 55, 0.62)); */
+    background-color: lightcoral;
+    cursor: pointer;
+}
+
+.otp{
+    display: inline-block;
+    font-size: 2rem;
+    padding: 1.8rem 1.8rem;
+    margin: 1rem 1rem;
+    /* padding: 2rem 2rem; */
+    outline: none;
+    border: none;
+    border-radius: .5rem;
+    cursor: pointer;
+    background-color: lightgreen;
+    color: white;
+}
+
+.otp:hover{
+    color:white;
+    background-color: lightcoral;
+}

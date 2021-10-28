@@ -1,1 +1,67 @@
-<p>login works!</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <div>
+        <img src="../../../assets/image/white logo.png" alt="" class="login-logo">
+    </div>
+    <div class="outer-container">
+        <div class="inner-container">
+            <h1 class="login">Sign In</h1>
+            <input type="email" placeholder="Enter Your Email" class="big-input">
+            <input type="password" placeholder="Enter Your Password" class="big-input">
+            <div class="remember">
+                <div>
+                    <input type="checkbox" name="" id="" class="check"> <span class="remember-me">Remember me</span>
+                </div>
+                <a href="#" class="need-help">Need Help?</a>
+            </div>
+            
+            <button type="submit" class="login-btn">Sign In</button>
+
+            <div class="social-link-div">
+                <!-- <span class="facebook-span">Login with Facebook</span> -->
+                <a href="#" class="social-link"><i class="fab fa-facebook facebook"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-instagram instagram"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-twitter twitter"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-google google"></i></a>
+            </div>
+
+            <div>
+                <h4 class="new-to">New to Code Front ?</h4><a [routerLink]="['/logregver/signup']" class="signup-now">Sign in Now</a>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="box">
+            <ul>
+                <li>
+                    <h3 class="hover-under">Any Question ? Call on : <span class="hover-under">7895961759</span> </h3>
+                    <a href="#" class="hover-under"><h3 class="hover-under">FAQ</h3></a>
+                    <a href="#" class="hover-under"> <h3 class="hover-under">Cookies Preferences</h3> </a>
+                </li>
+            </ul>
+        </div>
+        <div class="box">
+            <ul>
+                <li> <a href="#" class="hover-under">Bleech</a>  </li>
+                <li> <a href="#" class="hover-under">Hunter X Hunter</a> </li>
+                <li> <a href="#" class="hover-under">Attack on Titan</a> </li>
+            </ul>
+        </div>
+        <div class="box">
+            <ul>
+                <li> <a href="#" class="hover-under">Naruto</a> </li>
+                <li> <a href="#" class="hover-under">Jujutsu Kaisen</a> </li>
+                <li> <a href="#" class="hover-under">Dragon Ball Z</a> </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

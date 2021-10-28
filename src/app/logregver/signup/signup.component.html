@@ -8,16 +8,16 @@
 </head>
 <body>
     <div>
-        <img src="../../../assets/image/white logo.png" alt="" class="signin-logo">
+        <img src="../../../assets/image/white logo.png" alt="Error" class="signin-logo">
     </div>
     <div class="outer-container">
         <div class="inner-container">
-            <h1 class="signin">Sign In</h1>
+            <h1 class="signin">Sign Up</h1>
             <input type="text" placeholder="First Name" class="small-input">
             <input type="text" placeholder="Last Name" class="small-input">
             <input type="email" placeholder="Enter Your Email Here" class="big-input">
             <input type="password" placeholder="Enter your password" class="big-input">
-            <button type="submit"  class="signin-btn">Sign In</button>
+            <button type="submit"  class="signin-btn">Sign Up</button>
             <div class="remember">
                 <div>
                     <input type="checkbox" name="" id="" class="check"> <span class="remember-me">Remember me</span>
@@ -32,7 +32,7 @@
                 <a href="#" class="social-link"><i class="fab fa-google google"></i></a>
             </div>
             <div>
-                <h4 class="new-to">New to Code Front ?</h4><span class="signup-now">Sign Up Now</span>
+                <h4 class="new-to">Already Member ?</h4><a [routerLink]="['/logregver/login']" class="signup-now">Login Now</a>
             </div>
         </div>
     </div>
